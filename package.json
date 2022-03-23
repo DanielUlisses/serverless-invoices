@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "vue-cli-service serve"
   },
   "dependencies": {
     "@panter/vue-i18next": "^0.15.2",
@@ -21,6 +22,7 @@
     "i18next": "^20.2.1",
     "i18next-browser-languagedetector": "^6.1.0",
     "i18next-http-backend": "^1.2.1",
+    "jquery": "^1.9.1",
     "localforage": "^1.9.0",
     "lodash": "^4.17.21",
     "register-service-worker": "^1.7.1",
