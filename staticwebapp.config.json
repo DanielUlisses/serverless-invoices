@@ -13,6 +13,12 @@
             ]
         },
         {
+            "route": "/invoices/*",
+            "allowedRoles": [
+                "contributor"
+            ]
+        },
+        {
             "route": "/images/*",
             "headers": {
                 "cache-control": "must-revalidate, max-age=15770000"
